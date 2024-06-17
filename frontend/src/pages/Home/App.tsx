@@ -1,10 +1,15 @@
 import { BsCartCheck } from "react-icons/bs";
-import { FaCartArrowDown, FaEnvelope, FaPhone } from "react-icons/fa6";
+import {  FaEnvelope, FaPhone } from "react-icons/fa6";
 
 const App = () => {
   return (
     <main>
+
+
+
       <div className="px-0">
+
+
         <div>
           <img
             src="https://wallpapers.com/images/hd/restaurant-background-ua09rq3u85yphzt4.jpg"
@@ -13,6 +18,8 @@ const App = () => {
           />
           <div className="w-full h-screen bg-black opacity-60 absolute top-0"></div>
         </div>
+
+
 
         <div className="flex flex-col  h-screen w-full z-3 absolute top-0 ">
           <div className=" px-32 w-full flex justify-between items-center h-12 border-white border-b-[1.5px] text-white">
@@ -43,8 +50,17 @@ const App = () => {
             RaJa Indian & Azerbaijani
             <br /> Restaurant 
           </div>
+
+
+          
         </div>
+
+
+
       </div>
+
+
+
     </main>
   );
 };
