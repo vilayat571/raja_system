@@ -5,13 +5,13 @@ import gallery from "../../assets/images/gallery.png";
 
 const Foot = () => {
   return (
-    <main className="bg-[#141313] w-full h-auto xl:px-40 lg:px-40 md:px-20 sm:px-12 pb-3  pt-8 ">
+    <main id="contact" className="bg-[#141313] w-full h-auto xl:px-40 lg:px-40 md:px-20 sm:px-12 pb-3  pt-8 ">
       <div className="flex xl:flex-row lg:flex-row md:flex-row sm:flex-col justify-between items-start">
         <div className="mt-16">
           <p className="text-xl text-white">
             RaJa Indian &
             <br />
-            Azerbaijani Restaurant 
+            Azerbaijani Restaurant
           </p>
 
           <p className={`text-regular mt-8 text-[#cdcdcd] }`}>
@@ -54,7 +54,7 @@ const Foot = () => {
 
       <p className={`mt-16 text-sm text-[#cdcdcd]`}>
         Copyright ©2024 All rights reserved | This website designed and made
-        with  by 
+        with
         <a
           href="https://safarovacademy.com/"
           className=" text-white"

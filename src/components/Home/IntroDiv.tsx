@@ -1,13 +1,11 @@
 import IntroCover from "./IntroCover";
 import Header from "./Header";
-import Menu from "./Menu";
 
 function IntroDiv() {
   return (
-    <div className="px-0 border">
+    <div className="px-0 ">
       <IntroCover />
       <Header />
-      <Menu />
     </div>
   );
 }

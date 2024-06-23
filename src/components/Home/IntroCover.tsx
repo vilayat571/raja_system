@@ -1,12 +1,14 @@
+import cover from '../../assets/images/cover.jpg'
+
 function IntroCover() {
   return (
     <div>
       <img
-        src="https://wallpapers.com/images/hd/restaurant-background-ua09rq3u85yphzt4.jpg"
-        className="w-full h-screen object-cover"
-        alt=""
+        src={cover}
+        className="w-full xl:h-[700px] lg:h-screen  object-cover"
+        alt="cover image of raja restaurant"
       />
-      <div className="w-full h-screen bg-black opacity-60 absolute top-0"></div>
+      <div className="w-full xl:h-[700px] lg:h-screen  bg-black opacity-60 absolute top-0" />
     </div>
   );
 }
