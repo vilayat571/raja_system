@@ -6,7 +6,6 @@ function Header() {
     <div className="flex flex-col  xl:h-[700px] lg:h-screen w-full z-3 absolute top-0 ">
       <ContactDetails />
       <Navbar />
-
       <Welcome />
     </div>
   );
