@@ -9,7 +9,7 @@ import Layout from "../../layout/Layout";
 const App = () => {
   return (
     <Layout>
-      <main className=" overflow-hidden">
+      <main className=" overflow-hidden tracking-widest ">
         <IntroDiv />
         <Promotion />
         <Features />

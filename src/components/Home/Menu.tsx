@@ -6,8 +6,8 @@ function Menu() {
   return (
     <main
       id="menu"
-      className="bg-[#F9F9FF] py-20 my-10
-  xl:px-[400px] lg:px-32 gap-4 md:px-20 sm:px-4 flex flex-col items-center
+      className="bg-[#fff] py-20 my-10
+  xl:px-32 lg:px-20 gap-4 md:px-20 sm:px-4 flex flex-col items-center
   "
     >
       <Title />

@@ -37,44 +37,23 @@ export const featuresData: IFeatures[] = [
 export const menuData: IMenu[] = [
   {
     id: 1,
-    img: "https://monyo.az/uploads2/uploads2024-05/a_1983_20240509193308815830301.jpg",
+    img: "https://monyo.az/uploads2/uploads2024-05/a_1983_20240505230548209156773.jpg",
     price: "3",
     text: " Tomata paste soy sauce garlic...",
     title: " Chilly Bryani",
   },
   {
     id: 1,
-    img: "https://monyo.az/uploads2/uploads2024-05/a_1983_20240509193308815830301.jpg",
+    img: "https://monyo.az/uploads2/uploads2024-05/a_1983_202405060031351856626688.jpg",
     price: "3",
     text: " Tomata paste soy sauce garlic...",
     title: " Chilly Bryani",
   },
   {
     id: 1,
-    img: "https://monyo.az/uploads2/uploads2024-05/a_1983_20240509193308815830301.jpg",
+    img: "https://monyo.az/uploads2/uploads2024-05/a_1983_20240505234512696829514.jpg",
     price: "3",
     text: " Tomata paste soy sauce garlic...",
     title: " Chilly Bryani",
-  },
-  {
-    id: 1,
-    img: "https://monyo.az/uploads2/uploads2024-05/a_1983_20240509193308815830301.jpg",
-    price: "3",
-    text: " Tomata paste soy sauce garlic...",
-    title: " Chilly Bryani",
-  },
-  {
-    id: 1,
-    img: "https://monyo.az/uploads2/uploads2024-05/a_1983_20240509193308815830301.jpg",
-    price: "3",
-    text: " Tomata paste soy sauce garlic...",
-    title: " Chilly Bryani",
-  },
-  {
-    id: 1,
-    img: "https://monyo.az/uploads2/uploads2024-05/a_1983_20240509193308815830301.jpg",
-    price: "3",
-    text: " Tomata paste soy sauce garlic...",
-    title: " Chilly Bryani",
-  },
+  }
 ];

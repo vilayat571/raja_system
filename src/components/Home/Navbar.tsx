@@ -2,7 +2,7 @@ import logo from "../../assets/images/logo.png";
 function Navbar() {
   return (
     <div className=" mt-4 xl:px-32 lg:px-32 md:px-32 sm:px-2 w-full flex justify-between items-center">
-      <img src={logo} alt="the logo of raja restaurant" className="object-cover " />
+      <img src={logo} alt="the logo of raja restaurant" className="object-fit " />
 
    
         <div className="flex justify-between text-lg  xl:block lg:block sm:hidden md:hidden">
