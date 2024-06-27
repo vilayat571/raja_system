@@ -1,7 +1,7 @@
 import React from "react";
 import { IMenu } from "../../constants/data";
 
-const SingleMenu: React.FC<IMenu> = ({ img, price, text, title }) => {
+const SingleMenu: React.FC<IMenu> = ({ img, price, title }) => {
   return (
     <div
       key={Math.random()}

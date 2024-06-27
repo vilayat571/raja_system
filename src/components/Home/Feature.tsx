@@ -2,8 +2,8 @@ import React from "react";
 
 interface IFeature {
   img: string;
-  title: string;
-  text: string;
+  title: string |undefined;
+  text: string | undefined;
 }
 
 const Feature: React.FC<IFeature> = (props) => {

@@ -5,8 +5,8 @@ import menu from "../assets/images/menu.png";
 export interface IFeatures {
   id?: number;
   img: string;
-  title: string;
-  text: string;
+  title: string | undefined;
+  text?: string;
 }
 
 export interface IMenu extends IFeatures {
@@ -39,21 +39,18 @@ export const menuData: IMenu[] = [
     id: 1,
     img: "https://monyo.az/uploads2/uploads2024-05/a_1983_20240505230548209156773.jpg",
     price: "3",
-    text: " Tomata paste soy sauce garlic...",
     title: " Chilly Bryani",
   },
   {
     id: 1,
     img: "https://monyo.az/uploads2/uploads2024-05/a_1983_202405060031351856626688.jpg",
     price: "3",
-    text: " Tomata paste soy sauce garlic...",
     title: " Chilly Bryani",
   },
   {
     id: 1,
     img: "https://monyo.az/uploads2/uploads2024-05/a_1983_20240505234512696829514.jpg",
     price: "3",
-    text: " Tomata paste soy sauce garlic...",
     title: " Chilly Bryani",
-  }
+  },
 ];
