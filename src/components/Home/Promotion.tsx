@@ -9,18 +9,19 @@ function Promotion() {
     grid xl:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 lg:grid-cols-2">
       <img
         src={'https://monyo.az/uploads2/uploads2024-05/a_1983_202405060007201190313090.jpg'}
-        className=" col-span-1 w-[459px]  h-[542px] rounded-2xl "
+        className=" col-span-1 object-cover w-[400px]  h-[500px] rounded-2xl "
         alt="the image of restaurant meal"
       />
       <div className=" col-span-1 text-3xl text-black  relative top-16  ">
       
-       <p className="text-black text-[16px] font-bold">About us</p>
-        <p className="xl:text-[40px] lg:text-[40px] md:text-[36px] sm:text-[32px] font-bold leading-[50px] text-black">
+       <p className="text-black text-[16px] ">About us</p>
+        <p className="xl:text-[40px] lg:text-[40px] md:text-[36px] sm:text-[32px] font-bold 
+        xl:leading-[50px] lg:leading-[50px] md:leading-[50px] sm:leading-[46px] text-black">
           Discover Indian best
           <br />
-          foods in our restaurant
+          meals in restaurant
         </p>
-        <p className="text-lg text-[#414141] mt-6  w-11/12">
+        <p className="xl:text-lg lg:text-lg md:text-lg sm:text-[16px] text-[#414141] mt-6  xl:w-11/12">
           Welcome to RaJa, a culinary journey where the vibrant flavors
           of India meet the rich traditions of  Azerbaijan. We are
           passionate about bringing  you an unparalleled dining

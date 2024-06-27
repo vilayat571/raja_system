@@ -5,24 +5,27 @@ function Order() {
   return (
     <main
       className="xl:px-36 lg:px-48 md:px-24 sm:px-8 bg-[#F0BD6C] py-24 mt-10 mb-20
-     flex justify-between items-start
-      sm:flex-col xl:flex-row md:flex-col lg:flex-row  "
+     grid xl:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-1   "
     >
       <img
         src={file}
-        className="xl:w-[410px] lg:w-[410px] md:w-[350px] sm:w-[310px] xl:h-[410px] lg:h-[410px] md:h-[350px] sm:h-[310px] object-cover"
+        className="xl:w-[410px] col-span-1 lg:w-[410px] md:w-[350px] sm:w-[310px] xl:h-[410px] lg:h-[410px] md:h-[350px] sm:h-[310px] object-cover"
         alt="the image of restaurant meal"
       />
 
-      <div className="mt-6 ">
-        <p className="xl:text-[45px] lg:text-[45px] md:text-[36px] sm:text-[32px] font-bold leading-[50px] text-black">
-          Explore <br /> Irresistible <br /> Promotions!
+      <div className="mt-6 col-span-1  ">
+        <p className="xl:text-[45px] lg:text-[40px] md:text-[36px] sm:text-[32px] font-bold leading-[55px] text-black">
+          Explore <br /> Amazing <br /> Discounts!
         </p>
-        <p className="leading-[25px] text-black font-bold mb-12 my-4">
-          Contrasted dissimilar get joy you instrument out <br /> reasonably.
-          Again keeps at no meant stuff. To <br /> perpetual do existence
-          northward as difficult <br /> preserved daughters. Continued at up to{" "}
-          <br /> zealously necessary.
+        <p
+          className="xl:leading-[30px] lg:leading-[30px] sm:leading-[36px] md:leading-[30px]
+         w-full text-black text-[16px] font-bold mb-12 my-4"
+        >
+          Save some money and try new places to eat! Restaurants sometimes offer
+          deals to get you in the door. This could be a percentage off your
+          bill, like 10% cheaper, or a buy one, get one free deal on entrees.
+          Lunch specials are another way to save, with discounted meals during
+          the lunch rush.
         </p>
         <Button
           text="Order"
