@@ -9,9 +9,7 @@ import Totop from "./components/Home/Totop.tsx";
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
-      <Foot />
-      <Totop />
+ 
 
     </BrowserRouter>
   </React.StrictMode>

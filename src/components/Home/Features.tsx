@@ -1,4 +1,4 @@
-import { featuresData } from "../../models/data";
+import { featuresData } from "../../constants/data";
 import Feature from "./Feature";
 
 function Features() {
