@@ -1,11 +1,10 @@
 import Icon from "./Icon";
 import { FaFacebookF, FaLinkedin } from "react-icons/fa";
 import { BsInstagram, BsTiktok } from "react-icons/bs";
-import gallery from "../../assets/images/gallery.png";
 
 const Foot = () => {
   return (
-    <main id="contact" className="bg-[#141313] w-full h-auto xl:px-40 lg:px-40 md:px-20 sm:px-12 pb-3  pt-8 ">
+    <main id="contact" className="bg-[#141313] w-full h-auto tracking-widest xl:px-40 lg:px-40 md:px-20 sm:px-12 pb-3  pt-8 ">
       <div className="flex xl:flex-row lg:flex-row md:flex-row sm:flex-col justify-between items-start">
         <div className="mt-16">
           <p className="text-xl text-white">
@@ -30,15 +29,16 @@ const Foot = () => {
         </div>
 
         <div className="mt-16">
-          <p className="text-xl text-white">Our gallery</p>
+          <p className="text-xl text-white mb-8 ">Sections</p>
 
-          <img
-            src={gallery}
-            width={260}
-            height={200}
-            className="mt-8 w-[260px] h-[200px] "
-            alt="Picture of the gallery"
-          />
+          <div className="flex flex-col ">
+          <a href="/">Team</a>
+          <a href="/">Gallery</a>
+          <a href="#promotion">About us</a>
+          <a href="#menu">Menu</a>
+          <a href="#contact">Contact</a>
+          <a href="#contact">Results</a>
+        </div>
         </div>
 
         <div className="mt-16">

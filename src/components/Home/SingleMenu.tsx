@@ -12,7 +12,7 @@ const SingleMenu: React.FC<IMenu> = ({ img, price, title }) => {
           src={img}
           className=" rounded-lg
            xl:w-[360] lg:w-[360] md:w-[360] sm:w-[340px]
-          xl:h-[480px] lg:h-[480px] md:h-[480px] sm:h-[440] 
+          xl:h-[480px] lg:h-[480px] md:h-[480px] sm:h-[400px] 
           object-cover mb-4"
           alt={`the image of ${title}`}
         />
