@@ -6,6 +6,7 @@ import Promotion from "../../components/Home/Promotion";
 import Layout from "../../layout/Layout";
 import Results from "../../components/Home/Results";
 import Gallery from "../../components/Home/Gallery";
+import Teams from "../../components/Home/Teams";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Features />
         <Order />
         <Menu />
+        <Teams />
         <Results />
         <Gallery />
       </main>
