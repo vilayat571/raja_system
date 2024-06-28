@@ -4,7 +4,8 @@ import Menu from "../../components/Home/Menu";
 import Order from "../../components/Home/Order";
 import Promotion from "../../components/Home/Promotion";
 import Layout from "../../layout/Layout";
-//import Results from "../../components/Home/Results";
+import Results from "../../components/Home/Results";
+import Gallery from "../../components/Home/Gallery";
 
 const App = () => {
   return (
@@ -15,6 +16,8 @@ const App = () => {
         <Features />
         <Order />
         <Menu />
+        <Results />
+        <Gallery />
       </main>
     </Layout>
   );
