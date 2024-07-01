@@ -1,5 +1,5 @@
 import Features from "../../components/Home/Features";
-import IntroDiv from "../../components/Home/IntroDiv";
+import IntroDiv from "../../components/Home/Header/IntroDiv.tsx";
 import Menu from "../../components/Home/Menu";
 import Order from "../../components/Home/Order";
 import Promotion from "../../components/Home/Promotion";
@@ -11,16 +11,14 @@ import Teams from "../../components/Home/Teams";
 const App = () => {
   return (
     <Layout>
-      <main className=" overflow-hidden tracking-widest ">
-        <IntroDiv />
-        <Promotion />
-        <Features />
-        <Order />
-        <Menu />
-        <Teams />
-        <Results />
-        <Gallery />
-      </main>
+      <IntroDiv />
+      <Promotion />
+      <Features />
+      <Order />
+      <Menu />
+      <Teams />
+      <Results />
+      <Gallery />
     </Layout>
   );
 };

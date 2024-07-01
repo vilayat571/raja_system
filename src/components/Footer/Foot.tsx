@@ -5,7 +5,14 @@ import ContactDetails from "../Home/ContactDetails";
 
 const Foot = () => {
   return (
-    <main id="contact" className="bg-[#141313] w-full h-auto tracking-widest xl:px-40 lg:px-40 md:px-20 sm:px-12 pb-3  pt-8 ">
+    <main
+      id="contact"
+      className="
+      bg-[#141313] 
+      w-full h-auto tracking-widest 
+      xl:px-40 lg:px-40 md:px-20 sm:px-4 
+      pb-4 pt-8 "
+    >
       <div className="flex xl:flex-row lg:flex-row md:flex-row sm:flex-col justify-between items-start">
         <div className="mt-16">
           <p className="text-xl text-white">
@@ -33,22 +40,21 @@ const Foot = () => {
           <p className="text-xl text-white mb-8 ">Sections</p>
 
           <div className="flex flex-col ">
-          <a href="/">Team</a>
-          <a href="/">Gallery</a>
-          <a href="#promotion">About us</a>
-          <a href="#menu">Menu</a>
-          <a href="#contact">Contact</a>
-          <a href="#contact">Results</a>
-        </div>
+            <a href="/">Team</a>
+            <a href="/">Gallery</a>
+            <a href="#promotion">About us</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+            <a href="#contact">Results</a>
+          </div>
         </div>
 
         <div className="mt-16">
           <p className="text-xl text-white">Opening times</p>
 
           <p className={`text-regular mt-8 text-[#cdcdcd] w-full`}>
-            09:30 AM – 11:00 PM
-            <br />
-            Every Day
+            <span className="mb-2 block">09:30 AM – 11:00 PM</span>
+            <span className="mb-2 block"> Every Day</span>
           </p>
           <ContactDetails />
         </div>

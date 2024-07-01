@@ -1,33 +1,34 @@
-export const data=[
-    {
-      id:1,
-      text:"About us",
-      href:'#promotion'
-    },
-    {
-        id:2,
-        text:"Menu",
-        href:'#menu'
-      },
-      {
-        id:2,
-        text:"Contact",
-        href:'#contact'
-      },
-  ]
+export interface INavData {
+  id?: number;
+  text: string;
+  href: string;
+  styleT?:string
+}
 
-//   <a className="px-6" href="#promotion">
-//   About us
-// </a>
-// <a className="px-6" href="#menu">
-//   Menu
-// </a>
-// <a className="px-6" href="#contact">
-//   Contact
-// </a>
-// <a className="px-6" href="#menu">
-//   Gallery
-// </a>
-// <a className="px-6" href="#contact">
-//   Team
-// </a>
+export const navData: INavData[] = [
+  {
+    id: 1,
+    text: "About us",
+    href: "#promotion",
+  },
+  {
+    id: 2,
+    text: "Menu",
+    href: "#menu",
+  },
+  {
+    id: 3,
+    text: "Contact",
+    href: "#contact",
+  },
+  {
+    id: 4,
+    text: "Gallery",
+    href: "#gallery",
+  },
+  {
+    id: 2,
+    text: "Team",
+    href: "#team",
+  },
+];

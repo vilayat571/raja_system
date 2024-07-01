@@ -1,5 +1,6 @@
-import IntroCover from "./IntroCover";
 import Header from "./Header";
+import IntroCover from "./IntroCover";
+
 
 function IntroDiv() {
   return (

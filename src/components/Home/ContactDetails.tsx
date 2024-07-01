@@ -3,26 +3,23 @@ import ContactAtom, { IContactDetails } from "../../atoms/Header/ContactAtoms";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 function ContactDetails() {
-
   const details: IContactDetails[] = [
     {
       id: 1,
-      style: "flex items-center",
+      style: "mt-2 flex items-center",
       text: "(+994) 51 998 9889",
       icon: faPhone,
     },
     {
       id: 2,
-      style: "flex items-center",
+      style: "mt-2 flex items-center",
       text: "rajarestaurant@gmail.com",
       icon: faEnvelope,
     },
   ];
 
   return (
-    <div
-      className=" mt-2 "
-    >
+    <div>
       {details.map((detail: IContactDetails) => {
         return (
           <ContactAtom
