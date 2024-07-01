@@ -23,6 +23,11 @@ export interface IResults {
   description: string;
 }
 
+export interface ITeam extends IGallery {
+  position: string;
+  fullName: string;
+}
+
 export interface IMenu extends IFeatures {
   price: string;
 }
@@ -122,5 +127,14 @@ export const galleryData: IGallery[] = [
   {
     id: 13,
     img: "https://w0.peakpx.com/wallpaper/1019/191/HD-wallpaper-restaurant-and-bar-with-gorgeous-view-city-restaurant-view-bar.jpg",
+  },
+];
+
+export const teamData: ITeam[] = [
+  {
+    id: 1,
+    img: "https://w0.peakpx.com/wallpaper/1019/191/HD-wallpaper-restaurant-and-bar-with-gorgeous-view-city-restaurant-view-bar.jpg",
+    position: "CEO",
+    fullName: "Javid Karimli",
   },
 ];

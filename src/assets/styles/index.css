@@ -5,6 +5,7 @@
 @font-face {
     font-family: "Oceanwide";
     src: local("Oceanwide"), url("./assets/fonts/oceanwide-cufonfonts/Oceanwide-Semibold.otf") format("truetype");
+    src: local("Poppins"), url("../fonts/Poppins/Poppins-Regular.ttf") format("truetype");
 
 
 }
@@ -13,9 +14,16 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Oceanwide', sans-serif !important;
+    font-size: 18px;
     color: white;
+    font-family: 'Oceanwide', sans-serif ;
     scroll-behavior: smooth;
+}
+
+#details {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 11px !important;
+
 }
 
 body {
