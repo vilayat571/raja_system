@@ -1,6 +1,7 @@
 import Icon from "./Icon";
 import { FaFacebookF, FaLinkedin } from "react-icons/fa";
 import { BsInstagram, BsTiktok } from "react-icons/bs";
+import ContactDetails from "../Home/ContactDetails";
 
 const Foot = () => {
   return (
@@ -49,6 +50,7 @@ const Foot = () => {
             <br />
             Every Day
           </p>
+          <ContactDetails />
         </div>
       </div>
 

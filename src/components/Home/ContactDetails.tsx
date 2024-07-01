@@ -13,7 +13,7 @@ function ContactDetails() {
     },
     {
       id: 2,
-      style: "items-center xl:flex lg:flex md:flex sm:hidden",
+      style: "flex items-center",
       text: "rajarestaurant@gmail.com",
       icon: faEnvelope,
     },
@@ -21,12 +21,7 @@ function ContactDetails() {
 
   return (
     <div
-      className="
-      xl:px-32 lg:px-32 md:px-32 sm:px-4
-       w-full py-3
-      flex justify-between items-center
-      border-[#a39999] border-b-[0.5px]
-       text-white  text-[12px]"
+      className=" mt-2 "
     >
       {details.map((detail: IContactDetails) => {
         return (
