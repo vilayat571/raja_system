@@ -21,8 +21,8 @@ function Navbar() {
       >
         <img
           src={logo}
-          className="w-48 h-24"
-          alt="the logo of raja restaurant"
+          className="h-auto w-[183px]"
+          alt="the logo of rajam restaurant"
         />
 
         <div
@@ -80,7 +80,8 @@ function Navbar() {
             <img
               src={logo}
               alt="the logo of raja restaurant"
-              className="w-48 h-24 relative right-4"
+              className=" h-auto w-[183px]
+              relative right-4"
             />
             <div className="flex flex-col gap-1 text-xl ml-1 mt-4">
               {navData.map((navItem: INavData) => {
@@ -95,11 +96,10 @@ function Navbar() {
 
               <button
                 className=" cursor-pointer 
-            absolute bottom-12 text-sm
+            absolute bottom-20 text-sm
             border-white border-[1px] 
             px-4 py-2 ml-4"
               >
-                {" "}
                 Close
               </button>
             </div>
