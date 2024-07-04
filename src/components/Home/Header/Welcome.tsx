@@ -34,7 +34,7 @@ function Welcome() {
 
       <p className=" font-thin mt-8">
         <a
-          href="#menu"
+          href="#raja-menu"
           className="
            xl:px-6 lg:px-7 md:px-5 sm:px-4 py-3
          border-white border-[1px] rounded 

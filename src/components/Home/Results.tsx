@@ -22,7 +22,7 @@ function Results() {
         </span>
         <img
           src="https://em-content.zobj.net/source/apple/391/rocket_1f680.png"
-          alt=""
+          alt="the image of rocket"
           className="ml-4 w-12 xl:inline md:inline lg:inline sm:hidden"
         />
       </p>

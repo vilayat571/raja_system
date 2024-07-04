@@ -11,7 +11,7 @@ const Singleteam: React.FC<ITeam> = ({ img, id, fullName, position }) => {
       <img
         src={img}
         className="w-[300px] rounded-lg h-[240px] object-cover"
-        alt=""
+        alt={`the image of member of raja team called ${fullName}`}
       />
       <span className="text-xl mt-1 tracking-wider leading-10 text-[#888]">
         {position}

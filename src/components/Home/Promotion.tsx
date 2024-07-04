@@ -62,7 +62,7 @@ function Promotion() {
           <Button
             text="Discover more"
             style="text-[16px] text-[#1A1A1A] px-3 py-3 rounded border-[#1a1a1a] border-[1px]"
-            href="#more"
+            href="#raja-menu"
           />
         </div>
       </main>

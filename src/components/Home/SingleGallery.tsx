@@ -11,7 +11,7 @@ const SingleGallery: React.FC<IGallery> = ({ img, id }) => {
       <img
         src={img}
         className="w-[300px] rounded-lg h-[240px] object-cover"
-        alt=""
+        alt="the image from raja indian restaurant galleries"
       />
     </div>
   );
