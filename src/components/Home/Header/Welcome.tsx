@@ -1,12 +1,12 @@
 function Welcome() {
   return (
     <div
+      data-aos="fade-left"
       className="
       px-2 relative xl:top-28 lg:top-28 sm:top-56
       font-semibold text-white text-center
       tracking-wider leading-snug "
     >
-
       <span
         className="
       xl:text-[5vw] lg:text-[4vw] sm:text-[8vw] md:text-[5vw] 

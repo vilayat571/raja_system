@@ -9,7 +9,9 @@ function Promotion() {
     xl:px-[400px] lg:px-32 gap-4 md:px-32 sm:px-4 gap-y-12
     grid xl:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 lg:grid-cols-2"
     >
-      <div className=" col-span-1 flex justify-center items-center">
+      <div 
+      data-aos='fade-right'
+      className=" col-span-1 flex justify-center items-center">
         <img
           src={
             "https://monyo.az/uploads2/uploads2024-05/a_1983_202405060007201190313090.jpg"
@@ -20,7 +22,9 @@ function Promotion() {
           alt="the image of restaurant meal"
         />
       </div>
-      <div className=" col-span-1 text-3xl text-black  relative xl:top-8 lg:top-8 md:top-8 sm:top-0  ">
+      <div 
+      data-aos='fade-left'
+      className="col-span-1 text-3xl text-black  relative xl:top-8 lg:top-8 md:top-8 sm:top-0  ">
         <p className="text-black text-[16px] mb-1  font-semibold ">About us</p>
         <p
           className="xl:text-[40px] lg:text-[40px] md:text-[36px] sm:text-[30px] font-bold 
