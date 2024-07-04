@@ -3,7 +3,7 @@ import foods from "../../assets/images/foods.png";
 import menu from "../../assets/images/menu.png";
 
 export interface IFeatures {
-    id: number;
+    id?: number;
     img: string;
     title: string | undefined;
     text?: string;

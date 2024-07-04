@@ -9,6 +9,7 @@ const Menucmps = () => {
     >
       {menuData.map((menu) => (
         <SingleMenu
+        id={menu.id}
           key={menu.id}
           img={menu.img}
           price={menu.price}
