@@ -7,7 +7,8 @@ export default function Totop() {
       width="16"
       height="16"
       color="white"
-      className="rounded-full flex justify-center items-center bg-[#050505] outline-none"
+    style={{backgroundColor:"#0f0f0f",borderRadius:"100%"}}
+      className="rounded-full flex justify-center items-center  outline-none"
     />
   );
 }
