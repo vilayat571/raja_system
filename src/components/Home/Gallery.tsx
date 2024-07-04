@@ -3,7 +3,9 @@ import SingleGallery from "./SingleGallery";
 
 const Gallery = () => {
   return (
-    <main className=" xl:px-48 lg:px-48 md:px-48 sm:px-8 mb-16 ">
+    <main
+    id="gallery"
+    className=" xl:px-48 lg:px-48 md:px-48 sm:px-8 mb-16 ">
       <p
         className="mb-8 text-black  
         xl:text-4xl lg:text-4xl md:text-4xl sm:text-4xl 

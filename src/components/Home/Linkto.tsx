@@ -1,12 +1,12 @@
 function Linkto() {
   return (
-    <p className="text-center  w-full ">
+    <p className="text-center w-full h-auto relative bottom-12 ">
       <a
         href="https://monyo.az/?r=rajarestoran"
         target="_blank"
-        className="px-8 py-5  bg-[#e6e6e6] tracking-widest text-lg text-[#000] rounded"
+        className="px-7  py-3  bg-[#000000] tracking-widest text-[16px] text-[#fff] rounded"
       >
-        See hole menu
+        All meals
       </a>
     </p>
   );

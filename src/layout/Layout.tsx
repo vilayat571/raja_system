@@ -7,7 +7,8 @@ interface ILayout{
 }
 const Layout:React.FC<ILayout>= ({children}) => {
   return (
-    <div className='overflow-x-hidden'>
+    <div
+    className='overflow-x-hidden'>
       {children}
       <Foot />
       <Totop />

@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
 
 interface IBtn {
   style: string;
@@ -10,11 +8,11 @@ interface IBtn {
 
 const Button: React.FC<IBtn> = (props) => {
   return (
-   <div className="mt-8">
-     <Link className={props.style} to={props.href}>
-      {props.text}
-    </Link>
-   </div>
+    <div className="mt-8">
+      <a className={props.style} href={props.href}>
+        {props.text}
+      </a>
+    </div>
   );
 };
 

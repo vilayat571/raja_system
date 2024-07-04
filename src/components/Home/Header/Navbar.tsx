@@ -3,6 +3,7 @@ import logo from "../../../assets/images/logo.png";
 import { useState } from "react";
 import { INavData, navData } from "../../../constants/Navbar/Hrefs";
 import HrefOfnav from "../../../atoms/Navbar/HrefOfnav";
+import "../../../assets/styles/index.css";
 
 function Navbar() {
   const [mode, setMode] = useState<boolean>(false);
@@ -26,6 +27,7 @@ function Navbar() {
         />
 
         <div
+          id="nav"
           className="
       flex text-lg justify-between
       xl:block lg:block sm:hidden md:hidden"

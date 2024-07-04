@@ -4,6 +4,7 @@ import { IMenu } from "../../constants/data";
 const SingleMenu: React.FC<IMenu> = ({ img, price, title }) => {
   return (
     <div
+    data-aos='fade-right'
       key={Math.random()}
       className="col-span-1 px-0 pb-4  py-0 flex justify-center"
     >

@@ -3,7 +3,7 @@ import Feature from "./Feature";
 
 function Features() {
   return (
-    <main className="px-12 my-16">
+    <main  className="px-12 my-16">
       <p className="text-3xl text-center text-black font-semibold tracking-wider">
         Our quality is our advantage!
       </p>

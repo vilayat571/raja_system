@@ -7,8 +7,15 @@ import Layout from "../../layout/Layout";
 import Results from "../../components/Home/Results";
 import Gallery from "../../components/Home/Gallery";
 import Teams from "../../components/Home/Teams";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const App = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <Layout>
       <IntroDiv />

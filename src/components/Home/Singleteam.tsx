@@ -4,6 +4,7 @@ import { ITeam } from "../../constants/data.ts";
 const Singleteam: React.FC<ITeam> = ({ img, id, fullName, position }) => {
   return (
     <div
+    data-aos='fade-left'
       key={id}
       className="col-span-1 px-0 pb-4  py-0 flex flex-col items-center "
     >

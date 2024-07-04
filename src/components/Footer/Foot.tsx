@@ -2,6 +2,8 @@ import Icon from "./Icon";
 import { FaFacebookF, FaLinkedin } from "react-icons/fa";
 import { BsInstagram, BsTiktok } from "react-icons/bs";
 import ContactDetails from "../Home/ContactDetails";
+import { INavData, navData } from "../../constants/Navbar/Hrefs";
+import HrefOfnav from "../../atoms/Navbar/HrefOfnav";
 
 const Foot = () => {
   return (
@@ -39,14 +41,17 @@ const Foot = () => {
         <div className="mt-16">
           <p className="text-xl text-white mb-8 ">Sections</p>
 
-          <div className="flex flex-col ">
-            <a href="/">Team</a>
-            <a href="/">Gallery</a>
-            <a href="#promotion">About us</a>
-            <a href="#menu">Menu</a>
-            <a href="#contact">Contact</a>
-            <a href="#contact">Results</a>
-          </div>
+          <div className="flex flex-col  relative right-5 ">
+              {navData.map((navItem: INavData) => {
+                return (
+                  <HrefOfnav
+                    text={navItem.text}
+                    key={navItem.id}
+                    href={navItem.href}
+                  />
+                );
+              })}
+              </div>
         </div>
 
         <div className="mt-16">
@@ -62,7 +67,7 @@ const Foot = () => {
 
       <p className={`mt-16 text-sm text-[#cdcdcd]`}>
         Copyright ©2024 All rights reserved | This website designed and made
-        with
+        by
         <a
           href="https://safarovacademy.com/"
           className=" text-white"

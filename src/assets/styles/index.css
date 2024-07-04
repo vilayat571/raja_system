@@ -29,5 +29,9 @@
 body {
     overflow-x: hidden;
 }
+#nav{
+    transition-delay: 1s;
+    transition: width 2s;
+}
 
 
