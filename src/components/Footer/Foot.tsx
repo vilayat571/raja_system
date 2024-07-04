@@ -8,7 +8,7 @@ import HrefOfnav from "../../atoms/Navbar/HrefOfnav";
 const Foot = () => {
   return (
     <main
-      id="contact"
+      id="raja-contact"
       className="
       bg-[#141313] 
       w-full h-auto tracking-widest 

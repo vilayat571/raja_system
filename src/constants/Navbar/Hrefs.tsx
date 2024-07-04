@@ -9,26 +9,26 @@ export const navData: INavData[] = [
   {
     id: 1,
     text: "About us",
-    href: "#promotion",
+    href: "#raja-about",
   },
   {
     id: 2,
     text: "Menu",
-    href: "#menu",
+    href: "#raja-menu",
   },
   {
     id: 3,
     text: "Contact",
-    href: "#contact",
+    href: "#raja-contact",
   },
   {
     id: 4,
     text: "Gallery",
-    href: "#gallery",
+    href: "#raja-gallery",
   },
   {
-    id: 2,
+    id: 5,
     text: "Team",
-    href: "#team",
+    href: "#raja-team",
   },
 ];

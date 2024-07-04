@@ -1,18 +1,20 @@
-import cover from '../../../assets/images/res.jpeg'
+import cover from "../../../assets/images/res.jpeg";
 
 function IntroCover() {
   return (
     <div>
       <img
         src={cover}
-        className="w-full xl:h-[700px] lg:h-screen sm:h-screen md:h-screen   object-cover"
+        className="cursor-pointer w-full xl:h-[700px] lg:h-screen sm:h-screen md:h-screen   object-cover"
         alt="cover image of raja restaurant"
       />
-      <div className="
+      <div
+        className="
       w-full 
       xl:h-[700px] lg:h-screen sm:h-screen md:h-screen  
        bg-black opacity-70
-       absolute top-0" />
+       absolute top-0"
+      />
     </div>
   );
 }

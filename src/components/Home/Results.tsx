@@ -14,8 +14,12 @@ function Results() {
         className="mb-12 
     font-black text-left flex items-center"
       >
-        <span className="text-black  
-        xl:text-4xl lg:text-4xl md:text-4xl sm:text-4xl ">Our results prove our success! </span>
+        <span
+          className="text-black  
+        xl:text-4xl lg:text-4xl md:text-4xl sm:text-4xl "
+        >
+          Our results prove our success!{" "}
+        </span>
         <img
           src="https://em-content.zobj.net/source/apple/391/rocket_1f680.png"
           alt=""

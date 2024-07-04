@@ -4,7 +4,7 @@ import Singleteam from "./Singleteam";
 function Teams() {
   return (
     <main 
-    id="team"
+    id="raja-team"
     className="text-black xl:px-48 lg:px-28 md:px-48 sm:px-8 my-16">
       <div>
         <span className="text-3xl text-black tracking-wider block text-center mb-2">
