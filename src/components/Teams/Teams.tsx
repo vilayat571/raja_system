@@ -1,7 +1,6 @@
-
-import Singleteam from "./Singleteam";
 import '../../assets/styles/index.css'
 import { ITeam, teamData } from "../../constants/Team/data";
+import Singleteam from './Singleteam';
 
 function Teams() {
   return (
@@ -19,7 +18,7 @@ function Teams() {
   gap-2  text-center xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-3"
       >
         {teamData.map((team:ITeam) => (
-          <Singleteam 
+          <Singleteam
           position={team.position}
            id={team.id} 
            key={team.id}

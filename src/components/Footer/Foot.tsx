@@ -1,7 +1,7 @@
 import Icon from "./Icon";
 import { FaFacebookF, FaLinkedin, FaTripadvisor } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
-import ContactDetails from "../Home/ContactDetails";
+import ContactDetails from "./ContactDetails";
 import { INavData, navData } from "../../constants/Navbar/Hrefs";
 import HrefOfnav from "../../atoms/Navbar/HrefOfnav";
 

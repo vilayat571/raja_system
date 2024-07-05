@@ -1,7 +1,8 @@
 import React from "react";
-import SingleGallery from "./SingleGallery";
+
 import SEO from "../../SEO/SEO";
 import { galleryData } from "../../constants/Gallery/data";
+import SingleGallery from "./SingleGallery";
 
 const Gallery = () => {
   return (

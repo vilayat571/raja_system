@@ -1,5 +1,6 @@
 import React from "react";
-import { IMenu } from "../../constants/data";
+import { IMenu } from "../../constants/Menu/data";
+
 
 const SingleMenu: React.FC<IMenu> = ({ img, price, title }) => {
   return (

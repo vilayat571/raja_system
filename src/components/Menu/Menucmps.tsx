@@ -1,5 +1,6 @@
+import { menuData } from "../../constants/Menu/data";
 import SingleMenu from "./SingleMenu";
-import { menuData } from "../../constants/data";
+
 
 const Menucmps = () => {
   return (

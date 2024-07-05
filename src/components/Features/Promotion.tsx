@@ -1,6 +1,6 @@
 import bryani from '../../assets/images/bryani.jpg'
 import React from "react";
-import Button from "./Button";
+import Button from "../Home/Hreflinks/Button";
 import SEO from "../../SEO/SEO";
 
 function Promotion() {

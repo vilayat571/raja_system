@@ -1,8 +1,8 @@
 import Title from "./Title";
-import Menucmps from "./Menucmps";
-import Linkto from "./Linkto";
+import Linkto from "../Home/Hreflinks/Linkto";
 import SEO from "../../SEO/SEO";
 import React from "react";
+import Menucmps from "./Menucmps";
 
 function Menu() {
   return (

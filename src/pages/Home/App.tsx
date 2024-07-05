@@ -1,15 +1,16 @@
-import Features from "../../components/Home/Features";
+import Features from "../../components/Features/Features.tsx";
 import IntroDiv from "../../components/Home/Header/IntroDiv.tsx";
-import Menu from "../../components/Home/Menu";
-import Order from "../../components/Home/Order";
-import Promotion from "../../components/Home/Promotion";
+import Menu from "../../components/Menu/Menu.tsx";
+import Order from "../../components/Features/Order.tsx";
+import Promotion from "../../components/Features/Promotion.tsx";
 import Layout from "../../layout/Layout";
-import Results from "../../components/Home/Results";
-import Gallery from "../../components/Home/Gallery";
-import Teams from "../../components/Home/Teams";
+
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Teams from "../../components/Teams/Teams.tsx";
+import Results from "../../components/Results/Results.tsx";
+import Gallery from "../../components/Gallery/Gallery.tsx";
 
 const App = () => {
   useEffect(() => {

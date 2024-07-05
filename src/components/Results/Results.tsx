@@ -1,6 +1,7 @@
-import SingleFeature from "./SingleFeature";
+import { IResults, resultsFeatures } from "../../constants/Results/data";
+import SingleFeature from "../Results/SingleFeature";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { IResults, resultsFeatures } from "../../constants/data";
+
 
 function Results() {
   return (
