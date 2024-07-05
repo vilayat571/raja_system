@@ -1,5 +1,5 @@
 import React from "react";
-import { IGallery } from "../../constants/data";
+import { IGallery } from "../../constants/Gallery/data";
 
 const SingleGallery: React.FC<IGallery> = ({ img, id }) => {
   return (

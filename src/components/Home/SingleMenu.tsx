@@ -22,7 +22,7 @@ const SingleMenu: React.FC<IMenu> = ({ img, price, title }) => {
     justify-start items-center text-left px-8 xl:py-8 lg:py-8 md:py-8 sm:py-6 -right-4 bottom-20 rounded-lg bg-[#F7F9F8]"
         >
           <div className="flex flex-col ">
-            <span className="text-[#333] text">{price}$</span>
+            <span className="text-[#333] text">{price}₼</span>
             <span className="text-[#1f1f1f] mt-2 font-black text-xl">
               {title}
             </span>

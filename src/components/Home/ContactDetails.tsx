@@ -7,7 +7,7 @@ function ContactDetails() {
     {
       id: 1,
       style: "mt-2 flex items-center",
-      text: "(+994) 51 998 9889",
+      text: "+994 50 726 98 99",
       icon: faPhone,
     },
     {

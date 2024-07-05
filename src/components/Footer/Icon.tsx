@@ -1,15 +1,16 @@
-import React from 'react'
+import React from "react";
 
-interface IIcon{
-    Icon:JSX.Element
+interface IIcon {
+  Icon: JSX.Element;
+  href:string
 }
 
-const Icon:React.FC<IIcon> = (props) => {
+const Icon: React.FC<IIcon> = ({Icon, href}) => {
   return (
-    <span className="p-3 bg-[#201F1F] rounded-full mr-1">
-    {props.Icon}
-    </span>
-  )
-}
+    <a href={href} className="p-3 bg-[#201F1F] rounded-full mr-1" target="blank">
+      {Icon}
+    </a>
+  );
+};
 
-export default Icon
+export default Icon;

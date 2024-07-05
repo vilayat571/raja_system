@@ -13,7 +13,7 @@ const ContactAtom:React.FC<IContactDetails> = ({icon,style,text}) => {
   return (
     <div className={style}>
     <FontAwesomeIcon icon={icon} size='1x' />
-    <span className="ml-2 text-sm mt-1">{text}</span>
+    <span className="ml-2 text-sm mt-1 tracking-wide">{text}</span>
   </div>
   )
 }

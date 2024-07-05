@@ -12,19 +12,15 @@ function Results() {
     >
       <p
         className="mb-12 
-    font-black text-left flex items-center"
+    font-black text-center w-full  justify-center flex items-center"
       >
         <span
-          className="text-black  
+          className="text-black  text-center
         xl:text-4xl lg:text-4xl md:text-4xl sm:text-4xl "
         >
-          Our results prove our success!{" "}
+          Our results!
         </span>
-        <img
-          src="https://em-content.zobj.net/source/apple/391/rocket_1f680.png"
-          alt="the image of rocket"
-          className="ml-4 w-12 xl:inline md:inline lg:inline sm:hidden"
-        />
+        
       </p>
       <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 text-black sm:grid-cols-1 gap-4">
         {resultsFeatures.map((item: IResults) => {

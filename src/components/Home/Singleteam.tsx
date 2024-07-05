@@ -1,16 +1,16 @@
 import React from "react";
-import { ITeam } from "../../constants/data.ts";
+import { ITeam } from "../../constants/Team/data";
 
 const Singleteam: React.FC<ITeam> = ({ img, id, fullName, position }) => {
   return (
     <div
-    data-aos='fade-left'
+      data-aos="fade-left"
       key={id}
       className="col-span-1 px-0 pb-4  py-0 flex flex-col items-center "
     >
       <img
         src={img}
-        className="w-[300px] rounded-lg h-[240px] object-cover"
+        className="w-[240px] rounded-lg h-[300px] object-cover"
         alt={`the image of member of raja team called ${fullName}`}
       />
       <span className="text-xl mt-1 tracking-wider leading-10 text-[#888]">

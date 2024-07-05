@@ -16,7 +16,7 @@
     box-sizing: border-box;
     font-size: 18px;
     color: white;
-    font-family: 'Oceanwide', sans-serif ;
+    font-family: 'Oceanwide', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -29,13 +29,23 @@
 body {
     overflow-x: hidden;
 }
-#nav{
+
+#nav {
     transition-delay: 1s;
     transition: width 2s;
 }
 
-#found{
-    font-family: 'Oceanwide', sans-serif ;
+#found {
+    font-family: 'Oceanwide', sans-serif;
 
 }
 
+#quality {
+    font-family: 'Oceanwide', sans-serif;
+
+}
+
+#team {
+    font-family: 'Oceanwide', sans-serif;
+
+}

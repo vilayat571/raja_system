@@ -1,5 +1,7 @@
-import { ITeam, teamData } from "../../constants/data";
+
 import Singleteam from "./Singleteam";
+import '../../assets/styles/index.css'
+import { ITeam, teamData } from "../../constants/Team/data";
 
 function Teams() {
   return (
@@ -7,8 +9,8 @@ function Teams() {
     id="raja-team"
     className="text-black xl:px-48 lg:px-28 md:px-48 sm:px-8 my-16">
       <div>
-        <span className="text-3xl text-black tracking-wider block text-center mb-2">
-          Our professional chefs and team!
+        <span id="team" className="text-3xl text-black tracking-wider font-bold block text-center mb-2">
+          Our team!
         </span>
       </div>
 

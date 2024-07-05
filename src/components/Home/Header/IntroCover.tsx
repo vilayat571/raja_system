@@ -1,4 +1,4 @@
-import cover from "../../../assets/images/res.jpeg";
+import cover from "../../../assets/images/img6.jpeg";
 
 function IntroCover() {
   return (

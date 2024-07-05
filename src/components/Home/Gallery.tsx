@@ -1,7 +1,7 @@
 import React from "react";
-import { galleryData } from "../../constants/data";
 import SingleGallery from "./SingleGallery";
 import SEO from "../../SEO/SEO";
+import { galleryData } from "../../constants/Gallery/data";
 
 const Gallery = () => {
   return (
@@ -23,7 +23,7 @@ const Gallery = () => {
         xl:text-4xl lg:text-4xl md:text-4xl sm:text-4xl 
     font-black text-center "
         >
-          Our Gallery 🔥
+          Our Gallery 
         </p>
         <div
           className="grid
