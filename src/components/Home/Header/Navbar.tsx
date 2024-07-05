@@ -22,7 +22,7 @@ function Navbar() {
       >
         <img
           src={logo}
-          className="h-auto w-[183px]"
+          className=""
           alt="the logo of rajam restaurant"
         />
 
@@ -45,6 +45,7 @@ function Navbar() {
 
         <a
           href="https://wa.me/"
+          aria-label='The link of Raja whatsapp'
           className="px-4 mr-4 py-2 text-sm 
         border-white rounded border-[1px]
          xl:block lg:block sm:hidden md:hidden"

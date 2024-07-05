@@ -1,4 +1,4 @@
-//import file from "../../assets/images/file.png";
+import bryani from '../../assets/images/bryani.jpg'
 import React from "react";
 import Button from "./Button";
 import SEO from "../../SEO/SEO";
@@ -25,13 +25,11 @@ function Promotion() {
           className=" col-span-1 flex justify-center items-center"
         >
           <img
-            src={
-              "https://monyo.az/uploads2/uploads2024-05/a_1983_202405060007201190313090.jpg"
-            }
+            src={bryani}
             className=" object-cover rounded-2xl
         xl:w-[400px] lg:w-[400px] md:w-[400px] sm:w-[330px]
           xl:h-[500px] lg:h-[500px] md:h-[500px] sm:h-[400px]  "
-            alt="the image of restaurant meal"
+            alt="the image of bryani meal"
           />
         </div>
         <div

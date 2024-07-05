@@ -83,6 +83,7 @@ const Foot = () => {
           href="https://safarovacademy.com/"
           className=" text-white"
           target="_blank"
+          aria-label='Vilayat Safarv websie'
           rel="noopener noreferrer"
         >
           {"  "}

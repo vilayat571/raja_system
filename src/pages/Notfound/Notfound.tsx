@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import "../../assets/styles/index.css";
+import found from "../../assets/images/white_plate.jpg";
 
 const Notfound = () => {
   const location = useLocation();
@@ -10,7 +11,7 @@ const Notfound = () => {
     <div className=" w-full h-screen flex justify-center items-center">
       <img
         className=" z-9 object-cover xl:h-[600px] lg:h-[600px] md:h-[500px] sm:h-auto "
-        src="https://i.pinimg.com/736x/21/0c/d2/210cd204a6d7c6d1ff4692469831be5b.jpg"
+        src={found}
         alt="the plate image for 404 page"
       />
 

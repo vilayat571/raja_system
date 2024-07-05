@@ -34,6 +34,7 @@ function Welcome() {
 
       <p className=" font-thin mt-8">
         <a
+        aria-label='See more about Raja Menu'
           href="#raja-menu"
           className="
            xl:px-6 lg:px-7 md:px-5 sm:px-4 py-3

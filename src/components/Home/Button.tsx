@@ -9,7 +9,9 @@ interface IBtn {
 const Button: React.FC<IBtn> = (props) => {
   return (
     <div className="mt-8">
-      <a className={props.style} href={props.href}>
+      <a className={props.style} 
+      aria-label='See more about Raja'
+      href={props.href}>
         {props.text}
       </a>
     </div>

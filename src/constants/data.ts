@@ -1,7 +1,9 @@
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
 import { IFeatures } from "./Features/data";
-
+import beef from '../assets/images/beef.jpg';
+import burger from '../assets/images/burger.jpg';
+import pokara from '../assets/images/pakora.jpg';
 
 
 
@@ -23,19 +25,19 @@ export interface IMenu extends IFeatures {
 export const menuData: IMenu[] = [
   {
     id: 1,
-    img: "https://monyo.az/uploads2/uploads2024-05/a_1983_20240505230548209156773.jpg",
+    img: burger,
     price: "20",
     title: "Beef burger",
   },
   {
     id: 2,
-    img: "https://monyo.az/uploads2/uploads2024-05/a_1983_202405060031351856626688.jpg",
+    img: beef,
     price: "45",
     title: "Beef steak",
   },
   {
     id: 3,
-    img: "https://monyo.az/uploads2/uploads2024-05/a_1983_20240505234512696829514.jpg",
+    img: pokara,
     price: "14",
     title: "Onion pakora",
   },
