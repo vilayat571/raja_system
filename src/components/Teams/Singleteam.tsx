@@ -10,15 +10,17 @@ const Singleteam: React.FC<ITeam> = ({ img, id, fullName, position }) => {
     >
       <img
         src={img}
-        className="w-[240px] rounded-lg h-[300px] object-cover"
+        className="w-[350px] rounded-lg h-[330px] object-cover"
         alt={`the image of member of raja team called ${fullName}`}
       />
-      <span className="text-xl mt-1 tracking-wider leading-10 text-[#888]">
+    <p className="flex flex-col items-center mt-3">
+    <span className="tracking-wider text-[17px]  text-[#000]">
         {position}
       </span>
-      <span className="text-xl mt-1 tracking-wider leading-10 text-black">
+      <span className="text-xl relative bottom-1 tracking-wider leading-10 text-black">
         {fullName}
       </span>
+    </p>
     </div>
   );
 };

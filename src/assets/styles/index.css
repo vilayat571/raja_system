@@ -4,8 +4,7 @@
 
 @font-face {
     font-family: "Oceanwide";
-    src: local("Oceanwide"), url("./assets/fonts/oceanwide-cufonfonts/Oceanwide-Semibold.otf") format("truetype");
-    src: local("Poppins"), url("../fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+    src: local("Oceanwide"), url("../fonts/oceanwide-cufonfonts/Oceanwide-Semibold.otf") format("truetype");
 
 
 }
@@ -16,36 +15,8 @@
     box-sizing: border-box;
     font-size: 18px;
     color: white;
-    font-family: 'Oceanwide', sans-serif;
+    font-family: 'Oceanwide', sans-serif !important;
     scroll-behavior: smooth;
 }
 
-#details {
-    font-family: 'Poppins', sans-serif !important;
-    font-size: 11px !important;
 
-}
-
-body {
-    overflow-x: hidden;
-}
-
-#nav {
-    transition-delay: 1s;
-    transition: width 2s;
-}
-
-#found {
-    font-family: 'Oceanwide', sans-serif;
-
-}
-
-#quality {
-    font-family: 'Oceanwide', sans-serif;
-
-}
-
-#team {
-    font-family: 'Oceanwide', sans-serif;
-
-}

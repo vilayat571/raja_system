@@ -11,6 +11,7 @@ import "aos/dist/aos.css";
 import Teams from "../../components/Teams/Teams.tsx";
 import Results from "../../components/Results/Results.tsx";
 import Gallery from "../../components/Gallery/Gallery.tsx";
+import Embed from "../../components/Footer/Embed.tsx";
 
 const App = () => {
   useEffect(() => {
@@ -27,6 +28,7 @@ const App = () => {
       <Teams />
       <Results />
       <Gallery />
+      <Embed />
     </Layout>
   );
 };
