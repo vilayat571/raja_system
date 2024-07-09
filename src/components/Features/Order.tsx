@@ -4,7 +4,7 @@ import Button from "../Home/Hreflinks/Button";
 function Order() {
   return (
     <main
-    id="more"
+      id="more"
       className="xl:px-36 lg:px-48 md:px-24 sm:px-8 bg-[#F0BD6C] py-24 mt-10 mb-20
      grid xl:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-1   "
     >
@@ -15,9 +15,11 @@ function Order() {
       />
 
       <div className="mt-6 col-span-1  ">
-        <p className="xl:text-[45px] lg:text-[40px] md:text-[36px] sm:text-[32px] font-bold 
+        <p
+          className="xl:text-[45px] lg:text-[40px] md:text-[36px] sm:text-[32px] font-bold 
        xl:leading-[55px] lg:leading-[55px] md:leading-[55px] sm:leading-[45px]  
-       text-black">
+       text-black"
+        >
           Explore <br /> Amazing <br /> Discounts!
         </p>
         <p
@@ -33,7 +35,7 @@ function Order() {
         <Button
           text="Order"
           style="text-regular text-[#1A1A1A] px-8 py-3 rounded bg-black text-white"
-          href="/"
+          href="tel:+994507269899"
         />
       </div>
     </main>

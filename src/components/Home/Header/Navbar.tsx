@@ -43,7 +43,7 @@ function Navbar() {
           })}
         </div>
 
-        <a href="+994507269899" 
+        <a href="tel:+994507269899" 
           className="px-4 mr-4 py-2 text-sm 
           border-white rounded border-[1px]
            xl:block lg:block sm:hidden md:hidden"
