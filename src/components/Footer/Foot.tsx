@@ -39,7 +39,7 @@ const Foot = () => {
             href="https://www.facebook.com/RaJa.Qabala/"
             Icon={<FaFacebookF className="text-white text-[18px]" />} />
             <Icon
-            href="/"
+            href="https://www.linkedin.com/company/raja-indian-azerbaijani-restaurant"
             Icon={<FaLinkedin className="text-white text-[18px]" />} />
             <Icon
             href="https://www.instagram.com/explore/locations/123452834873138/raja-indian-azerbaijani-cuisine/"

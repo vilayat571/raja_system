@@ -43,15 +43,14 @@ function Navbar() {
           })}
         </div>
 
-        <a
-          href="https://wa.me/"
-          aria-label='The link of Raja whatsapp'
+        <a href="+994507269899" 
           className="px-4 mr-4 py-2 text-sm 
-        border-white rounded border-[1px]
-         xl:block lg:block sm:hidden md:hidden"
-        >
-          Reservation
-        </a>
+          border-white rounded border-[1px]
+           xl:block lg:block sm:hidden md:hidden"
+           aria-label="Phone number: +994 50 726 98 99"
+           >Call Us</a>
+
+
 
         {mode ? (
           <FaTimes
