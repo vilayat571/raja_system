@@ -1,6 +1,6 @@
 const Embed = () => {
   return (
-    <div className="w-full flex flex-col  px-20 mb-12">
+    <div className="w-full flex flex-col  xl:px-20 lg:px-20 md:px-8 sm:px-4 mb-12">
       <p className="text-3xl text-black text-center my-8">
         Click the map & find us
       </p>

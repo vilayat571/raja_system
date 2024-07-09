@@ -1,4 +1,4 @@
-import { faUser } from "@fortawesome/free-solid-svg-icons";
+import { faUser, faHotdog, faStar, faTruckPickup } from "@fortawesome/free-solid-svg-icons";
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
 
 
@@ -14,29 +14,29 @@ export interface IResults {
 export const resultsFeatures: IResults[] = [
   {
     id: 1,
-    icon: faUser,
-    title: "20",
+    icon: faHotdog,
+    title: "30",
     description: "different meals",
   },
 
   {
     id: 2,
     icon: faUser,
-    title: "20",
-    description: "different meals",
+    title: "120",
+    description: "daily clients",
   },
 
   {
     id: 3,
-    icon: faUser,
-    title: "20",
-    description: "different meals",
+    icon: faStar,
+    title: "4.4",
+    description: "google rating",
   },
   {
     id: 4,
-    icon: faUser,
-    title: "20",
-    description: "different meals",
+    icon: faTruckPickup,
+    title: "25",
+    description: "delivery time",
   },
 ];
 

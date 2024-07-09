@@ -5,7 +5,7 @@ function Order() {
   return (
     <main
       id="more"
-      className="xl:px-36 lg:px-48 md:px-24 sm:px-8 bg-[#F0BD6C] py-24 mt-10 mb-20
+      className="xl:px-36 lg:px-48 md:px-24 sm:px-8 bg-[#EDF2F5] py-24 mt-10 mb-20
      grid xl:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-1   "
     >
       <img
@@ -24,7 +24,7 @@ function Order() {
         </p>
         <p
           className="xl:leading-[30px] lg:leading-[30px] sm:leading-[32px] md:leading-[30px]
-         w-full text-black xl:text-[18px] lg:text-[18px] md:text-[17px] sm:text-[16px]  font-bold mb-9 mt-4 "
+         w-full text-black xl:text-[18px] lg:text-[18px] md:text-[17px] sm:text-[16px]   mb-9 mt-4 "
         >
           Save some money and try new places to eat! Restaurants sometimes offer
           deals to get you in the door. This could be a percentage off your
