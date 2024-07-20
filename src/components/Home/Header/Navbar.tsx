@@ -55,7 +55,7 @@ function Navbar() {
             onClick={() => changeMode()}
             className="
           text-xl mr-8
-          xl:hidden lg:hidden sm: md:hidden
+          xl:hidden lg:hidden sm:block cursor-pointer  md:hidden
       "
           />
         ) : (
@@ -63,7 +63,7 @@ function Navbar() {
             onClick={() => changeMode()}
             className="
           text-xl mr-8
-          xl:hidden lg:hidden sm: md:hidden
+          xl:hidden lg:hidden sm:block cursor-pointer md:hidden
       "
           />
         )}
@@ -94,11 +94,22 @@ function Navbar() {
                 );
               })}
 
+              <a
+                href="https://wa.me/994507269899"
+                className="px-4 ml-5 mt-1 py-2 text-sm 
+          border-white rounded border-[1px]
+           w-24 text-center"
+                target="blank"
+                aria-label="Phone number: +994507269899"
+              >
+                Call Us
+              </a>
+
               <button
                 className=" cursor-pointer 
-            absolute bottom-20 text-sm
+            absolute bottom-20 text-sm rounded
             border-white border-[1px] 
-            px-4 py-2 ml-4"
+            px-4 py-2 ml-4 w-24 text-center"
               >
                 Close
               </button>

@@ -85,9 +85,8 @@ const Foot = () => {
           target="_blank"
           aria-label='Vilayat Safarv websie'
           rel="noopener noreferrer"
-        >
-          {"  "}
-          <u>Vilayat Safarov</u>{" "}
+        > 
+          <u>Vilayat Safarov</u>
         </a>
       </p>
     </main>
