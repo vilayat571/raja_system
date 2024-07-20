@@ -1,6 +1,6 @@
 function Linkto() {
   return (
-    <p className="text-center w-full h-auto relative bottom-12 ">
+    <p className="text-center w-full h-auto relative bottom-20 ">
       <a
         href="https://monyo.az/?r=rajarestoran"
         target="_blank"

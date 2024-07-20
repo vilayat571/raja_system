@@ -6,7 +6,7 @@ const Menucmps = () => {
   return (
     <div
       className="grid 
-    gap-8 gap-y-6 text-center mt-10 xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-3"
+    gap-8  text-center mt-12 xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-3"
     >
       {menuData.map((menu) => (
         <SingleMenu

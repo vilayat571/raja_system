@@ -20,11 +20,7 @@ function Navbar() {
     xl:mx-32 lg:mx-32 md:mx-32 sm:px-2 
     w-full flex justify-between items-center"
       >
-        <img
-          src={logo}
-          className=""
-          alt="the logo of rajam restaurant"
-        />
+        <img src={logo} className="" alt="the logo of rajam restaurant" />
 
         <div
           id="nav"
@@ -43,14 +39,16 @@ function Navbar() {
           })}
         </div>
 
-        <a href="tel:+994507269899" 
+        <a
+          href="https://wa.me/994507269899"
           className="px-4 mr-4 py-2 text-sm 
           border-white rounded border-[1px]
            xl:block lg:block sm:hidden md:hidden"
-           aria-label="Phone number: +994 50 726 98 99"
-           >Call Us</a>
-
-
+          target="blank"
+          aria-label="Phone number: +994507269899"
+        >
+          Call Us
+        </a>
 
         {mode ? (
           <FaTimes

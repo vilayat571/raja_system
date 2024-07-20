@@ -2,12 +2,12 @@ import React from "react";
 import { IMenu } from "../../constants/Menu/data";
 
 
-const SingleMenu: React.FC<IMenu> = ({ img, price, title }) => {
+const SingleMenu: React.FC<IMenu> = ({ img, price, title, id }) => {
   return (
     <div
     data-aos='fade-right'
       key={Math.random()}
-      className="col-span-1 px-0 pb-4  py-0 flex justify-center"
+      className={`col-span-1 px-0 pb-4 h-auto py-0 flex justify-center ${id!=null && id>3 && 'relative bottom-20'}`}
     >
       <div className="flex flex-col items-center">
         <img

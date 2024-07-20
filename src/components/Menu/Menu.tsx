@@ -17,7 +17,7 @@ function Menu() {
       />
       <main
         id="raja-menu"
-        className="bg-[#fff] py-20 my-10
+        className="bg-[#fff] py-20 mt-10 mb-0
   xl:px-32 lg:px-20 gap-4 md:px-20 sm:px-4 flex flex-col items-center
   "
       >

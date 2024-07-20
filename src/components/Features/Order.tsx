@@ -35,7 +35,7 @@ function Order() {
         <Button
           text="Order"
           style="text-regular text-[#1A1A1A] px-8 py-3 rounded bg-black text-white"
-          href="tel:+994507269899"
+          href="https://wa.me/994507269899"
         />
       </div>
     </main>
